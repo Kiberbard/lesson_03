@@ -40,7 +40,8 @@ int BinaryToDecimal(char *binary, int binary_size){
 	int k = 0;
 	for(int i = binary_size; i >= 0; i--){
 		if(binary[k] == '1'){
-			temp = pow(2, i);
+			//temp = pow(2, i);
+			temp = 1 << i;
 			//printf("temp = %d\n", temp);
 			//printf("i = %d\n", i);
 			decimal += temp;

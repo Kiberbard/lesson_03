@@ -49,7 +49,7 @@ int main(){
 	
 	
 	printf("\nзадание 7:\n");
-	char *binary = "11011";
+	char *binary = "1010";
 	int binary_size = strlen(binary);
 	int decimal = BinaryToDecimal(binary, binary_size);
 	printf("decimal for binary %s  is:= %d)\n", binary, decimal);
